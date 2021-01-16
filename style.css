@@ -1,7 +1,16 @@
 #fullsc {
-      padding: 2rem;
+      padding: 10px;
 }
 
 #header1 {
       border-bottom: 1px solid black;
+}
+
+
+#header1 h1 {
+      font-size: 2rem;
+}
+
+h2 {
+      font-size: 2rem;
 }
