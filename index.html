@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <title>Dynamic Display Lighting</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</head>
+
+<body id="bodyb">
+      <div class="container">
+            
+            <div id="header1" class="row">
+<div class="col xl10"><h1>Dynamic Display Lighting</h1></div>
+<div  class="col xl2 "><i id="fullsc" class="large material-icons">fullscreen</i></div>
+
+
+</div>
+
+
+            <div id="secondrow" class="row">
+                  <div class="col s12 xl6">
+                        <h2>Color</h2>
+                        <input type="color" id="selectedcolor" name="selectedcolor" value="#e66465">
+                        <h2>Time</h2>
+                       
+                        
+                        <label for="Duration">Milliseconds</label>
+                        
+                 
+                        <input placeholder="2000" id="Duration" type="text" class="validate">
+                        <a id="addtoq" class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Add to queue</a>
+                        <a id="resetbtn" class="waves-effect waves-light btn"><i class="material-icons left">format_color_reset</i>Reset</a>
+                         
+                  </div>
+
+                  <div class="col s12 xl6">
+                      
+                        <ul id="qlist"  class="collection">
+                         
+
+                        </ul>
+      
+                        <a id="startbtn" class="waves-effect waves-light btn"><i class="material-icons left">play_arrow</i>Start</a>
+                   
+                  </div>
+
+            </div>
+
+      </div>
+
+
+
+      <script src="./app.js"></script>
+</body>
+
+</html>
